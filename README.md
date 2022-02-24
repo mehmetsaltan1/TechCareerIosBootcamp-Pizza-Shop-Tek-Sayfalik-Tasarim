@@ -8,3 +8,9 @@
   * Özel İkon Oluşturma -> https://icon.kitchen/
   * Localization ile Çoklu dil desteği
   * Dark Mode entegrasyonu
+
+## Ekranlar
+<p float="left">
+<img src="screenshots/lightmode.png" alt="drawing" width="250"/>
+<img src="screenshots/darkmode.png" alt="drawing" width="250"/>
+</p>
