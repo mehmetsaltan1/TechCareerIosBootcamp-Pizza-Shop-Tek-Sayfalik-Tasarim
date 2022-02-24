@@ -16,6 +16,7 @@
 		9B69B9C327C3F1C70011AD14 /* TasarimCalismasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69B9C227C3F1C70011AD14 /* TasarimCalismasiTests.swift */; };
 		9B69B9CD27C3F1C70011AD14 /* TasarimCalismasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69B9CC27C3F1C70011AD14 /* TasarimCalismasiUITests.swift */; };
 		9B69B9CF27C3F1C70011AD14 /* TasarimCalismasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69B9CE27C3F1C70011AD14 /* TasarimCalismasiUITestsLaunchTests.swift */; };
+		9B69B9DD27C408560011AD14 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B69B9DC27C408560011AD14 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,9 @@
 		9B69B9C827C3F1C70011AD14 /* TasarimCalismasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasarimCalismasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B69B9CC27C3F1C70011AD14 /* TasarimCalismasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasarimCalismasiUITests.swift; sourceTree = "<group>"; };
 		9B69B9CE27C3F1C70011AD14 /* TasarimCalismasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasarimCalismasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B69B9DC27C408560011AD14 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		9BF3559C27C6A4D500B45376 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		9BF3559D27C6A4D500B45376 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 				9B69B9AB27C3F1C50011AD14 /* AppDelegate.swift */,
 				9B69B9AD27C3F1C50011AD14 /* SceneDelegate.swift */,
 				9B69B9AF27C3F1C50011AD14 /* ViewController.swift */,
+				9B69B9DB27C408220011AD14 /* Fonts */,
 				9B69B9B127C3F1C50011AD14 /* Main.storyboard */,
 				9B69B9B427C3F1C70011AD14 /* Assets.xcassets */,
 				9B69B9B627C3F1C70011AD14 /* LaunchScreen.storyboard */,
@@ -125,6 +130,14 @@
 				9B69B9CE27C3F1C70011AD14 /* TasarimCalismasiUITestsLaunchTests.swift */,
 			);
 			path = TasarimCalismasiUITests;
+			sourceTree = "<group>";
+		};
+		9B69B9DB27C408220011AD14 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9B69B9DC27C408560011AD14 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +226,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 9B69B99F27C3F1C50011AD14;
 			productRefGroup = 9B69B9A927C3F1C50011AD14 /* Products */;
@@ -232,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B69B9B827C3F1C70011AD14 /* LaunchScreen.storyboard in Resources */,
+				9B69B9DD27C408560011AD14 /* Pacifico-Regular.ttf in Resources */,
 				9B69B9B527C3F1C70011AD14 /* Assets.xcassets in Resources */,
 				9B69B9B327C3F1C50011AD14 /* Main.storyboard in Resources */,
 			);
@@ -301,6 +316,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9B69B9B227C3F1C50011AD14 /* Base */,
+				9BF3559C27C6A4D500B45376 /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +325,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9B69B9B727C3F1C70011AD14 /* Base */,
+				9BF3559D27C6A4D500B45376 /* tr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,6 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -381,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
